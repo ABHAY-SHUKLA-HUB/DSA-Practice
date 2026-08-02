@@ -16,3 +16,12 @@ int main(){
 
     return 0;
 }
+
+// Agar array ka size bahut bada ho (10⁹ tak values), to kya ye formula hamesha safe hai?
+
+// int ki limit cross kar sakta hai (Integer Overflow).
+
+// Tab hum use karte hain:
+
+// long long total = 1LL * (n + 1) * (n + 2) / 2;
+
